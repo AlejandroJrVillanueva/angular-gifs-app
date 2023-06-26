@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'gifs-search-box',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./search-box.component.css']
 })
 export class SearchBoxComponent {
+  @ViewChild('txtTagInput')
+  tagInput!: ElementRef<HTMLInputElement>;
 
+  searchTag():void{
+    const newTag = this.tagInput.nativeElement.value;
+    console.log({newTag});
+  }
 }
