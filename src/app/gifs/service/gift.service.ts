@@ -2,7 +2,6 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Gif, SearcResponse } from '../interface/gifs.interface';
 
-
 @Injectable({providedIn: 'root'})
 export class GifsService {
 
@@ -13,7 +12,7 @@ export class GifsService {
 
   constructor(private http: HttpClient) {
     this.loadSaveStorage();
-    console.log('Gifs Service Ready!');
+    // console.log('Gifs Service Ready!');
   }
 
   get tagsHistory(){
