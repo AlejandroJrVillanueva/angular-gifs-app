@@ -1,3 +1,37 @@
+# GifsApp : Temas puntuales de la sección - Parte 1
+
+Modularización de la aplicación
+
+Estructura de la aplicación de media a gran escala
+
+Componentes
+
+ViewChild
+
+Servicios
+
+Historial de búsquedas
+
+Uso de Api Keys
+
+LocalStorage
+
+Peticiones HTTP
+
+Animaciones mediante css
+
+# GifsApp : Temas puntuales de la sección - Parte 2
+
+@Inputs
+
+@Outputs
+
+Custom Components
+
+Validaciones
+
+Importación de módulos personalizados
+
 # GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
